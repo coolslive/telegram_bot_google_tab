@@ -1,9 +1,31 @@
-Телеграмм бот для добавления записей в google таблицу
+# Catalog of articles categorized by groups
+Telegram bot for adding entries to google spreadsheet
 
-1) Запускаем коммандой /button
-2) Выбираем вкладку
-3) Вносим данные в строку через дифиз(на примере сделал 3 столбца не считая первого в него дата автоматоматически прописывается)
-4) Бот в ответ указывает какие данныые внес.
-5) Предлагает внести еще или вернуться использую команду старта.
+### Includes applications
 
-Для работы данного бота необходима настройка google API(смотрим окей гугл)
+ - Run the command /button
+ - Select the tab
+ - We enter the data into the row through the diphys (for example, I made 3 columns, not counting the first one, the date is automatically written into it)
+ - The bot in response indicates which data it has entered.
+ - Offers to make more or return using the start command.
+ - For this bot to work, you need to configure the google API (look ok Google)
+
+## Technology:
+
+Python
+
+## Installation
+
+Creating and activating a virtual environment:
+
+```
+python3 -m venv venv
+```
+
+```
+source venv/Scripts/activate
+```
+
+```
+python3 -m pip install --upgrade pip
+```
