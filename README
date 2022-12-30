@@ -3,7 +3,7 @@ Telegram bot for adding entries to google spreadsheet
 
 ### Includes applications
 
- - Run the command /button
+ - Run the command button
  - Select the tab
  - We enter the data into the row through the diphys (for example, I made 3 columns, not counting the first one, the date is automatically written into it)
  - The bot in response indicates which data it has entered.
